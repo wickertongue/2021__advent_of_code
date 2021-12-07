@@ -24,5 +24,5 @@ with open('data.txt') as file:
     readings = file.readlines()
     readings = list(map(int, readings))
 
-    # part_one(readings)
+    print(part_one(readings))
     print(part_two(readings))
