@@ -6,7 +6,8 @@ def part_one(readings):
         if reading > last_reading:
             increased_tally += 1
         last_reading = reading
-    print(increased_tally)
+    return increased_tally
+
 
 def part_two(readings):
     depth_increase_count = 0
